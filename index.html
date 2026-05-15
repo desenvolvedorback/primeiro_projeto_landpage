@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Cursos de TI avançados: Desenvolvimento Web, Data Science, Cibersegurança e Mobile.">
+    <meta name="keywords" content="cursos, TI, avançados, Desenvolvimento Web, Data Science, Cibersegurança, Mobile">
+    <meta name="author" content="Futuro Tech">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Futuro Tech - Cursos de TI</title>
+</head>
+
+<body>
+    <div class="background-mesh"></div>
+
+    <header class="glass-header">
+        <nav class="container">
+            <a href="#" class="logo">Futuro<span class="highlight">Tech</span></a>
+            <ul class="nav-links">
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#features">Cursos</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#contact" class="btn-primary">Inscreva-se</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section container">
+            <div class="hero-content">
+                <h1 class="hero-title">Transforme seu <br><span class="gradient-text">Futuro em TI</span></h1>
+                <p class="hero-subtitle">Domine as tecnologias mais demandadas do mercado. Cursos práticos de
+                    Desenvolvimento Web, Data Science e Cibersegurança.</p>
+                <div class="hero-buttons">
+                    <a href="#features" class="btn-primary">Ver Cursos</a>
+                    <a href="#contact" class="btn-secondary">Fale Conosco</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="glass-card float-animation">
+                    <div class="card-icon">💻</div>
+                    <h3>Fullstack</h3>
+                    <p>Domine Web Dev</p>
+                </div>
+                <div class="glass-card float-animation-delay">
+                    <div class="card-icon">📊</div>
+                    <h3>Dados</h3>
+                    <p>Análise Avançada</p>
+                </div>
+                <div class="glass-card float-animation-slow">
+                    <div class="card-icon">📱</div>
+                    <h3>Mobile</h3>
+                    <p>Apps Nativos</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features-section container">
+            <h2 class="section-title">Nossas Trilhas</h2>
+            <div class="features-grid">
+                <article class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3>Desenvolvimento Web</h3>
+                    <p>Aprenda HTML5, CSS3, JavaScript e React para criar aplicações modernas.</p>
+                </article>
+                <article class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Cibersegurança</h3>
+                    <p>Proteja sistemas e redes contra ameaças digitais com técnicas avançadas.</p>
+                </article>
+                <article class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3>Ciência de Dados</h3>
+                    <p>Transforme dados em insights valiosos usando Python e Machine Learning.</p>
+                </article>
+                <article class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>Desenvolvimento Mobile</h3>
+                    <p>Crie aplicativos nativos para iOS e Android com React Native e Expo.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery-section container">
+            <h2 class="section-title">Por Dentro da Futuro Tech</h2>
+            <div class="gallery-grid">
+                <figure class="gallery-item item-1">
+                    <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=800&q=80"
+                        alt="Aula Prática">
+                    <figcaption>Aulas Práticas</figcaption>
+                </figure>
+                <figure class="gallery-item item-2">
+                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80"
+                        alt="Networking">
+                    <figcaption>Networking</figcaption>
+                </figure>
+                <figure class="gallery-item item-3">
+                    <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=80"
+                        alt="Certificação">
+                    <figcaption>Certificação</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section container">
+            <div class="glass-form-container">
+                <h2 class="section-title">Garanta sua Vaga</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder=" ">
+                        <label for="name">Nome Completo</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder=" ">
+                        <label for="email">E-mail</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" required placeholder=" " rows="4"></textarea>
+                        <label for="message">Curso de Interesse</label>
+                    </div>
+                    <button type="submit" class="btn-primary btn-block">Solicitar Informações</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <p>&copy; 2025 Futuro Tech. Formando os líderes do amanhã.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Instagram">IG</a>
+                <a href="#" aria-label="LinkedIn">IN</a>
+                <a href="#" aria-label="YouTube">YT</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
